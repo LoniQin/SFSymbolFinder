@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F07F201E2613A2CF0028B6CA /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F201D2613A2CF0028B6CA /* Tests_iOS.swift */; };
+		F07F20292613A2CF0028B6CA /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20282613A2CF0028B6CA /* Tests_macOS.swift */; };
+		F07F202B2613A2CF0028B6CA /* SFSymbolFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F07F1FFF2613A2CD0028B6CA /* SFSymbolFinder.xcdatamodeld */; };
+		F07F202C2613A2CF0028B6CA /* SFSymbolFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F07F1FFF2613A2CD0028B6CA /* SFSymbolFinder.xcdatamodeld */; };
+		F07F202D2613A2CF0028B6CA /* SFSymbolFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20012613A2CD0028B6CA /* SFSymbolFinderApp.swift */; };
+		F07F202E2613A2CF0028B6CA /* SFSymbolFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20012613A2CD0028B6CA /* SFSymbolFinderApp.swift */; };
+		F07F202F2613A2CF0028B6CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20022613A2CD0028B6CA /* ContentView.swift */; };
+		F07F20302613A2CF0028B6CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20022613A2CD0028B6CA /* ContentView.swift */; };
+		F07F20312613A2CF0028B6CA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20032613A2CD0028B6CA /* Persistence.swift */; };
+		F07F20322613A2CF0028B6CA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20032613A2CD0028B6CA /* Persistence.swift */; };
+		F07F20332613A2CF0028B6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07F20042613A2CF0028B6CA /* Assets.xcassets */; };
+		F07F20342613A2CF0028B6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07F20042613A2CF0028B6CA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F07F201A2613A2CF0028B6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F07F1FFA2613A2CC0028B6CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F07F20082613A2CF0028B6CA;
+			remoteInfo = "SFSymbolFinder (iOS)";
+		};
+		F07F20252613A2CF0028B6CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F07F1FFA2613A2CC0028B6CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F07F20102613A2CF0028B6CA;
+			remoteInfo = "SFSymbolFinder (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F07F20002613A2CD0028B6CA /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		F07F20012613A2CD0028B6CA /* SFSymbolFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolFinderApp.swift; sourceTree = "<group>"; };
+		F07F20022613A2CD0028B6CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F07F20032613A2CD0028B6CA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F07F20042613A2CF0028B6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F07F20092613A2CF0028B6CA /* SFSymbolFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFSymbolFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07F200C2613A2CF0028B6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07F20112613A2CF0028B6CA /* SFSymbolFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFSymbolFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07F20132613A2CF0028B6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07F20142613A2CF0028B6CA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F07F20192613A2CF0028B6CA /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07F201D2613A2CF0028B6CA /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		F07F201F2613A2CF0028B6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07F20242613A2CF0028B6CA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07F20282613A2CF0028B6CA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		F07F202A2613A2CF0028B6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F07F20062613A2CF0028B6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F200E2613A2CF0028B6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F20162613A2CF0028B6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F20212613A2CF0028B6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F07F1FF92613A2CC0028B6CA = {
+			isa = PBXGroup;
+			children = (
+				F07F1FFE2613A2CD0028B6CA /* Shared */,
+				F07F200B2613A2CF0028B6CA /* iOS */,
+				F07F20122613A2CF0028B6CA /* macOS */,
+				F07F201C2613A2CF0028B6CA /* Tests iOS */,
+				F07F20272613A2CF0028B6CA /* Tests macOS */,
+				F07F200A2613A2CF0028B6CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F07F1FFE2613A2CD0028B6CA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F07F20012613A2CD0028B6CA /* SFSymbolFinderApp.swift */,
+				F07F20022613A2CD0028B6CA /* ContentView.swift */,
+				F07F20032613A2CD0028B6CA /* Persistence.swift */,
+				F07F20042613A2CF0028B6CA /* Assets.xcassets */,
+				F07F1FFF2613A2CD0028B6CA /* SFSymbolFinder.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F07F200A2613A2CF0028B6CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F07F20092613A2CF0028B6CA /* SFSymbolFinder.app */,
+				F07F20112613A2CF0028B6CA /* SFSymbolFinder.app */,
+				F07F20192613A2CF0028B6CA /* Tests iOS.xctest */,
+				F07F20242613A2CF0028B6CA /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F07F200B2613A2CF0028B6CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F07F200C2613A2CF0028B6CA /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F07F20122613A2CF0028B6CA /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F07F20132613A2CF0028B6CA /* Info.plist */,
+				F07F20142613A2CF0028B6CA /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F07F201C2613A2CF0028B6CA /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F07F201D2613A2CF0028B6CA /* Tests_iOS.swift */,
+				F07F201F2613A2CF0028B6CA /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		F07F20272613A2CF0028B6CA /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F07F20282613A2CF0028B6CA /* Tests_macOS.swift */,
+				F07F202A2613A2CF0028B6CA /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F07F20082613A2CF0028B6CA /* SFSymbolFinder (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07F20372613A2CF0028B6CA /* Build configuration list for PBXNativeTarget "SFSymbolFinder (iOS)" */;
+			buildPhases = (
+				F07F20052613A2CF0028B6CA /* Sources */,
+				F07F20062613A2CF0028B6CA /* Frameworks */,
+				F07F20072613A2CF0028B6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SFSymbolFinder (iOS)";
+			productName = "SFSymbolFinder (iOS)";
+			productReference = F07F20092613A2CF0028B6CA /* SFSymbolFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F07F20102613A2CF0028B6CA /* SFSymbolFinder (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07F203A2613A2CF0028B6CA /* Build configuration list for PBXNativeTarget "SFSymbolFinder (macOS)" */;
+			buildPhases = (
+				F07F200D2613A2CF0028B6CA /* Sources */,
+				F07F200E2613A2CF0028B6CA /* Frameworks */,
+				F07F200F2613A2CF0028B6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SFSymbolFinder (macOS)";
+			productName = "SFSymbolFinder (macOS)";
+			productReference = F07F20112613A2CF0028B6CA /* SFSymbolFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F07F20182613A2CF0028B6CA /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07F203D2613A2CF0028B6CA /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				F07F20152613A2CF0028B6CA /* Sources */,
+				F07F20162613A2CF0028B6CA /* Frameworks */,
+				F07F20172613A2CF0028B6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F07F201B2613A2CF0028B6CA /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = F07F20192613A2CF0028B6CA /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F07F20232613A2CF0028B6CA /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07F20402613A2CF0028B6CA /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				F07F20202613A2CF0028B6CA /* Sources */,
+				F07F20212613A2CF0028B6CA /* Frameworks */,
+				F07F20222613A2CF0028B6CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F07F20262613A2CF0028B6CA /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = F07F20242613A2CF0028B6CA /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F07F1FFA2613A2CC0028B6CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					F07F20082613A2CF0028B6CA = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					F07F20102613A2CF0028B6CA = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					F07F20182613A2CF0028B6CA = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F07F20082613A2CF0028B6CA;
+					};
+					F07F20232613A2CF0028B6CA = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F07F20102613A2CF0028B6CA;
+					};
+				};
+			};
+			buildConfigurationList = F07F1FFD2613A2CC0028B6CA /* Build configuration list for PBXProject "SFSymbolFinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F07F1FF92613A2CC0028B6CA;
+			productRefGroup = F07F200A2613A2CF0028B6CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F07F20082613A2CF0028B6CA /* SFSymbolFinder (iOS) */,
+				F07F20102613A2CF0028B6CA /* SFSymbolFinder (macOS) */,
+				F07F20182613A2CF0028B6CA /* Tests iOS */,
+				F07F20232613A2CF0028B6CA /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F07F20072613A2CF0028B6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07F20332613A2CF0028B6CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F200F2613A2CF0028B6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07F20342613A2CF0028B6CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F20172613A2CF0028B6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F20222613A2CF0028B6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F07F20052613A2CF0028B6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07F202D2613A2CF0028B6CA /* SFSymbolFinderApp.swift in Sources */,
+				F07F20312613A2CF0028B6CA /* Persistence.swift in Sources */,
+				F07F202B2613A2CF0028B6CA /* SFSymbolFinder.xcdatamodeld in Sources */,
+				F07F202F2613A2CF0028B6CA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F200D2613A2CF0028B6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07F202E2613A2CF0028B6CA /* SFSymbolFinderApp.swift in Sources */,
+				F07F20322613A2CF0028B6CA /* Persistence.swift in Sources */,
+				F07F202C2613A2CF0028B6CA /* SFSymbolFinder.xcdatamodeld in Sources */,
+				F07F20302613A2CF0028B6CA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F20152613A2CF0028B6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07F201E2613A2CF0028B6CA /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F20202613A2CF0028B6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07F20292613A2CF0028B6CA /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F07F201B2613A2CF0028B6CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F07F20082613A2CF0028B6CA /* SFSymbolFinder (iOS) */;
+			targetProxy = F07F201A2613A2CF0028B6CA /* PBXContainerItemProxy */;
+		};
+		F07F20262613A2CF0028B6CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F07F20102613A2CF0028B6CA /* SFSymbolFinder (macOS) */;
+			targetProxy = F07F20252613A2CF0028B6CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F07F20352613A2CF0028B6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F07F20362613A2CF0028B6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F07F20382613A2CF0028B6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.blog-swiftui.SFSymbolFinder";
+				PRODUCT_NAME = SFSymbolFinder;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F07F20392613A2CF0028B6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.blog-swiftui.SFSymbolFinder";
+				PRODUCT_NAME = SFSymbolFinder;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F07F203B2613A2CF0028B6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.blog-swiftui.SFSymbolFinder";
+				PRODUCT_NAME = SFSymbolFinder;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F07F203C2613A2CF0028B6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.blog-swiftui.SFSymbolFinder";
+				PRODUCT_NAME = SFSymbolFinder;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F07F203E2613A2CF0028B6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.blog-swiftui.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SFSymbolFinder (iOS)";
+			};
+			name = Debug;
+		};
+		F07F203F2613A2CF0028B6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.blog-swiftui.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SFSymbolFinder (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F07F20412613A2CF0028B6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.blog-swiftui.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SFSymbolFinder (macOS)";
+			};
+			name = Debug;
+		};
+		F07F20422613A2CF0028B6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.blog-swiftui.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SFSymbolFinder (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F07F1FFD2613A2CC0028B6CA /* Build configuration list for PBXProject "SFSymbolFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07F20352613A2CF0028B6CA /* Debug */,
+				F07F20362613A2CF0028B6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07F20372613A2CF0028B6CA /* Build configuration list for PBXNativeTarget "SFSymbolFinder (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07F20382613A2CF0028B6CA /* Debug */,
+				F07F20392613A2CF0028B6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07F203A2613A2CF0028B6CA /* Build configuration list for PBXNativeTarget "SFSymbolFinder (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07F203B2613A2CF0028B6CA /* Debug */,
+				F07F203C2613A2CF0028B6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07F203D2613A2CF0028B6CA /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07F203E2613A2CF0028B6CA /* Debug */,
+				F07F203F2613A2CF0028B6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07F20402613A2CF0028B6CA /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07F20412613A2CF0028B6CA /* Debug */,
+				F07F20422613A2CF0028B6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F07F1FFF2613A2CD0028B6CA /* SFSymbolFinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F07F20002613A2CD0028B6CA /* Shared.xcdatamodel */,
+			);
+			currentVersion = F07F20002613A2CD0028B6CA /* Shared.xcdatamodel */;
+			path = SFSymbolFinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F07F1FFA2613A2CC0028B6CA /* Project object */;
+}
