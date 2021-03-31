@@ -10,7 +10,11 @@ class AppModel: ObservableObject {
     
     var names: [Icon] = []
     
+    var stores: [String: Image] = [:]
+    
     @Published var filtered: [Icon] = []
+    
+    var showStarItem = false
     
     var tintColor: Color = .black
     
@@ -31,7 +35,6 @@ class AppModel: ObservableObject {
         
         let word = keyword.lowercased()
         let date = Date()
-        
         defer {
             print("Elapsed:\(Date().timeIntervalSince(date))")
         }
@@ -39,11 +42,17 @@ class AppModel: ObservableObject {
             self.filtered = self.names
             return
         }
-        
         self.filtered = self.names.filter({ (icon) -> Bool in
             icon.name.contains(word)
         })
         
+    }
+    
+    func image(for icon: Icon) -> Image {
+        if stores[icon.name] == nil {
+            stores[icon.name] = Image(systemName: icon.name)
+        }
+        return stores[icon.name]!
     }
     
 }

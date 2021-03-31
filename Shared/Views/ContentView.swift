@@ -21,13 +21,12 @@ struct ContentView: View {
             TextField("Keyword", text: self.$keyword, onCommit: {
                 model.filter(self.keyword)
             })
-            Toggle("Show only staring items", isOn: $showStarItem)
             ForEach(model.filtered.filter({ !self.showStarItem || $0.star })) { icon in
                 NavigationLink(
                     destination: IconDetailView(icon: icon).environmentObject(model),
                     label: {
                         HStack {
-                            Image(systemName: icon.name).foregroundColor(tintColor)
+                            model.image(for: icon).foregroundColor(tintColor)
                             Text(icon.name)
                             Spacer()
                             Image(systemName: icon.star ? "star.fill" : "star").foregroundColor(tintColor)
@@ -35,15 +34,11 @@ struct ContentView: View {
                     })
             }
         }
-        .navigationTitle("SF icons")
-        .navigationBarItems(trailing: NavigationLink(
-            destination:  SettingView(),
-                label: {
-                    Image(systemName: "gearshape")
-                }
-        ))
+        .navigationTitle("SF Symbols")
+        .navigationBarItems(trailing: SettingBarItem())
         .onAppear {
             tintColor = model.tintColor
+            showStarItem = model.showStarItem
         }
     }
 

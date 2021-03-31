@@ -18,7 +18,8 @@ struct SettingView: View {
             ColorPicker(selection: $model.tintColor) {
                 Text("Tint color")
             }
-        }
+            Toggle("Show only staring items", isOn: $model.showStarItem)
+        }.navigationTitle("Setting")
     }
 
 }

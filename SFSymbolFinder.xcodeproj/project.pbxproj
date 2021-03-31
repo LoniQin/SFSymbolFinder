@@ -25,8 +25,8 @@
 		F07F20662614B5EC0028B6CA /* IconDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20642614B5EC0028B6CA /* IconDetailView.swift */; };
 		F07F207A2614CF330028B6CA /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20792614CF320028B6CA /* Icon.swift */; };
 		F07F207B2614CF330028B6CA /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20792614CF320028B6CA /* Icon.swift */; };
-		F07F20852614D0AD0028B6CA /* SettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20842614D0AD0028B6CA /* SettingItem.swift */; };
-		F07F20862614D0AD0028B6CA /* SettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20842614D0AD0028B6CA /* SettingItem.swift */; };
+		F07F20852614D0AD0028B6CA /* SettingBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20842614D0AD0028B6CA /* SettingBarItem.swift */; };
+		F07F20862614D0AD0028B6CA /* SettingBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20842614D0AD0028B6CA /* SettingBarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,7 @@
 		F07F20592614B1720028B6CA /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		F07F20642614B5EC0028B6CA /* IconDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconDetailView.swift; sourceTree = "<group>"; };
 		F07F20792614CF320028B6CA /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
-		F07F20842614D0AD0028B6CA /* SettingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingItem.swift; sourceTree = "<group>"; };
+		F07F20842614D0AD0028B6CA /* SettingBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +116,10 @@
 		F07F1FFE2613A2CD0028B6CA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				F0F0A9F82614D9EA0069F428 /* App */,
 				F07F20782614CF160028B6CA /* Views */,
 				F07F206F2614CF0C0028B6CA /* Models */,
 				F07F20482613A38E0028B6CA /* icons.txt */,
-				F07F20012613A2CD0028B6CA /* SFSymbolFinderApp.swift */,
 				F07F20042613A2CF0028B6CA /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -186,9 +186,17 @@
 				F07F20592614B1720028B6CA /* SettingView.swift */,
 				F07F20642614B5EC0028B6CA /* IconDetailView.swift */,
 				F07F20022613A2CD0028B6CA /* ContentView.swift */,
-				F07F20842614D0AD0028B6CA /* SettingItem.swift */,
+				F07F20842614D0AD0028B6CA /* SettingBarItem.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F0F0A9F82614D9EA0069F428 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F07F20012613A2CD0028B6CA /* SFSymbolFinderApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,7 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F07F20852614D0AD0028B6CA /* SettingItem.swift in Sources */,
+				F07F20852614D0AD0028B6CA /* SettingBarItem.swift in Sources */,
 				F07F207A2614CF330028B6CA /* Icon.swift in Sources */,
 				F07F202D2613A2CF0028B6CA /* SFSymbolFinderApp.swift in Sources */,
 				F07F205A2614B1720028B6CA /* SettingView.swift in Sources */,
@@ -364,7 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F07F20862614D0AD0028B6CA /* SettingItem.swift in Sources */,
+				F07F20862614D0AD0028B6CA /* SettingBarItem.swift in Sources */,
 				F07F207B2614CF330028B6CA /* Icon.swift in Sources */,
 				F07F202E2613A2CF0028B6CA /* SFSymbolFinderApp.swift in Sources */,
 				F07F205B2614B1720028B6CA /* SettingView.swift in Sources */,
