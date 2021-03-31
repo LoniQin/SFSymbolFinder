@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		F07F201E2613A2CF0028B6CA /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F201D2613A2CF0028B6CA /* Tests_iOS.swift */; };
 		F07F20292613A2CF0028B6CA /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20282613A2CF0028B6CA /* Tests_macOS.swift */; };
-		F07F202B2613A2CF0028B6CA /* SFSymbolFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F07F1FFF2613A2CD0028B6CA /* SFSymbolFinder.xcdatamodeld */; };
-		F07F202C2613A2CF0028B6CA /* SFSymbolFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F07F1FFF2613A2CD0028B6CA /* SFSymbolFinder.xcdatamodeld */; };
 		F07F202D2613A2CF0028B6CA /* SFSymbolFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20012613A2CD0028B6CA /* SFSymbolFinderApp.swift */; };
 		F07F202E2613A2CF0028B6CA /* SFSymbolFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20012613A2CD0028B6CA /* SFSymbolFinderApp.swift */; };
 		F07F202F2613A2CF0028B6CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20022613A2CD0028B6CA /* ContentView.swift */; };
 		F07F20302613A2CF0028B6CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20022613A2CD0028B6CA /* ContentView.swift */; };
-		F07F20312613A2CF0028B6CA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20032613A2CD0028B6CA /* Persistence.swift */; };
-		F07F20322613A2CF0028B6CA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20032613A2CD0028B6CA /* Persistence.swift */; };
 		F07F20332613A2CF0028B6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07F20042613A2CF0028B6CA /* Assets.xcassets */; };
 		F07F20342613A2CF0028B6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07F20042613A2CF0028B6CA /* Assets.xcassets */; };
+		F07F20492613A38E0028B6CA /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20472613A38E0028B6CA /* AppModel.swift */; };
+		F07F204A2613A38E0028B6CA /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20472613A38E0028B6CA /* AppModel.swift */; };
+		F07F204B2613A38E0028B6CA /* icons.txt in Resources */ = {isa = PBXBuildFile; fileRef = F07F20482613A38E0028B6CA /* icons.txt */; };
+		F07F204C2613A38E0028B6CA /* icons.txt in Resources */ = {isa = PBXBuildFile; fileRef = F07F20482613A38E0028B6CA /* icons.txt */; };
+		F07F205A2614B1720028B6CA /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20592614B1720028B6CA /* SettingView.swift */; };
+		F07F205B2614B1720028B6CA /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20592614B1720028B6CA /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F07F20002613A2CD0028B6CA /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		F07F20012613A2CD0028B6CA /* SFSymbolFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolFinderApp.swift; sourceTree = "<group>"; };
 		F07F20022613A2CD0028B6CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F07F20032613A2CD0028B6CA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F07F20042613A2CF0028B6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F07F20092613A2CF0028B6CA /* SFSymbolFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFSymbolFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07F200C2613A2CF0028B6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +55,9 @@
 		F07F20242613A2CF0028B6CA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07F20282613A2CF0028B6CA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		F07F202A2613A2CF0028B6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07F20472613A38E0028B6CA /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		F07F20482613A38E0028B6CA /* icons.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icons.txt; sourceTree = "<group>"; };
+		F07F20592614B1720028B6CA /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +107,12 @@
 		F07F1FFE2613A2CD0028B6CA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				F07F20472613A38E0028B6CA /* AppModel.swift */,
+				F07F20482613A38E0028B6CA /* icons.txt */,
 				F07F20012613A2CD0028B6CA /* SFSymbolFinderApp.swift */,
 				F07F20022613A2CD0028B6CA /* ContentView.swift */,
-				F07F20032613A2CD0028B6CA /* Persistence.swift */,
 				F07F20042613A2CF0028B6CA /* Assets.xcassets */,
-				F07F1FFF2613A2CD0028B6CA /* SFSymbolFinder.xcdatamodeld */,
+				F07F20592614B1720028B6CA /* SettingView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -284,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F07F20332613A2CF0028B6CA /* Assets.xcassets in Resources */,
+				F07F204B2613A38E0028B6CA /* icons.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F07F20342613A2CF0028B6CA /* Assets.xcassets in Resources */,
+				F07F204C2613A38E0028B6CA /* icons.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +323,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F07F202D2613A2CF0028B6CA /* SFSymbolFinderApp.swift in Sources */,
-				F07F20312613A2CF0028B6CA /* Persistence.swift in Sources */,
-				F07F202B2613A2CF0028B6CA /* SFSymbolFinder.xcdatamodeld in Sources */,
+				F07F205A2614B1720028B6CA /* SettingView.swift in Sources */,
+				F07F20492613A38E0028B6CA /* AppModel.swift in Sources */,
 				F07F202F2613A2CF0028B6CA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,8 +334,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F07F202E2613A2CF0028B6CA /* SFSymbolFinderApp.swift in Sources */,
-				F07F20322613A2CF0028B6CA /* Persistence.swift in Sources */,
-				F07F202C2613A2CF0028B6CA /* SFSymbolFinder.xcdatamodeld in Sources */,
+				F07F205B2614B1720028B6CA /* SettingView.swift in Sources */,
+				F07F204A2613A38E0028B6CA /* AppModel.swift in Sources */,
 				F07F20302613A2CF0028B6CA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -698,19 +704,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F07F1FFF2613A2CD0028B6CA /* SFSymbolFinder.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F07F20002613A2CD0028B6CA /* Shared.xcdatamodel */,
-			);
-			currentVersion = F07F20002613A2CD0028B6CA /* Shared.xcdatamodel */;
-			path = SFSymbolFinder.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F07F1FFA2613A2CC0028B6CA /* Project object */;
 }
