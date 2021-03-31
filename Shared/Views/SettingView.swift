@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+
 struct SettingView: View {
    
     @EnvironmentObject var model: AppModel
