@@ -14,9 +14,11 @@ class AppModel: ObservableObject {
     
     @Published var filtered: [Icon] = []
     
-    var showStarItem = false
+    @AppStorage("showStarItem") var showStarItem = false
     
     var tintColor: Color = .black
+    
+    static var shared = AppModel()
     
     init() {
         self.load()

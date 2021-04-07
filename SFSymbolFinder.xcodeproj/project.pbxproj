@@ -27,6 +27,9 @@
 		F07F207B2614CF330028B6CA /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20792614CF320028B6CA /* Icon.swift */; };
 		F07F20852614D0AD0028B6CA /* SettingBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20842614D0AD0028B6CA /* SettingBarItem.swift */; };
 		F07F20862614D0AD0028B6CA /* SettingBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20842614D0AD0028B6CA /* SettingBarItem.swift */; };
+		F0DA7AA4261E19B300DF7E04 /* AllIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DA7AA3261E19B300DF7E04 /* AllIconsView.swift */; };
+		F0DA7AA5261E19B300DF7E04 /* AllIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DA7AA3261E19B300DF7E04 /* AllIconsView.swift */; };
+		F0F0A9FE2616109F0069F428 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F0F0A9FD2616109E0069F428 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,8 @@
 		F07F20642614B5EC0028B6CA /* IconDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconDetailView.swift; sourceTree = "<group>"; };
 		F07F20792614CF320028B6CA /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		F07F20842614D0AD0028B6CA /* SettingBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingBarItem.swift; sourceTree = "<group>"; };
+		F0DA7AA3261E19B300DF7E04 /* AllIconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllIconsView.swift; sourceTree = "<group>"; };
+		F0F0A9FD2616109E0069F428 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +109,7 @@
 		F07F1FF92613A2CC0028B6CA = {
 			isa = PBXGroup;
 			children = (
+				F0F0A9FD2616109E0069F428 /* README.md */,
 				F07F1FFE2613A2CD0028B6CA /* Shared */,
 				F07F200B2613A2CF0028B6CA /* iOS */,
 				F07F20122613A2CF0028B6CA /* macOS */,
@@ -187,6 +193,7 @@
 				F07F20642614B5EC0028B6CA /* IconDetailView.swift */,
 				F07F20022613A2CD0028B6CA /* ContentView.swift */,
 				F07F20842614D0AD0028B6CA /* SettingBarItem.swift */,
+				F0DA7AA3261E19B300DF7E04 /* AllIconsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -323,6 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F0A9FE2616109F0069F428 /* README.md in Resources */,
 				F07F20332613A2CF0028B6CA /* Assets.xcassets in Resources */,
 				F07F204B2613A38E0028B6CA /* icons.txt in Resources */,
 			);
@@ -363,6 +371,7 @@
 				F07F202D2613A2CF0028B6CA /* SFSymbolFinderApp.swift in Sources */,
 				F07F205A2614B1720028B6CA /* SettingView.swift in Sources */,
 				F07F20492613A38E0028B6CA /* AppModel.swift in Sources */,
+				F0DA7AA4261E19B300DF7E04 /* AllIconsView.swift in Sources */,
 				F07F20652614B5EC0028B6CA /* IconDetailView.swift in Sources */,
 				F07F202F2613A2CF0028B6CA /* ContentView.swift in Sources */,
 			);
@@ -377,6 +386,7 @@
 				F07F202E2613A2CF0028B6CA /* SFSymbolFinderApp.swift in Sources */,
 				F07F205B2614B1720028B6CA /* SettingView.swift in Sources */,
 				F07F204A2613A38E0028B6CA /* AppModel.swift in Sources */,
+				F0DA7AA5261E19B300DF7E04 /* AllIconsView.swift in Sources */,
 				F07F20662614B5EC0028B6CA /* IconDetailView.swift in Sources */,
 				F07F20302613A2CF0028B6CA /* ContentView.swift in Sources */,
 			);
@@ -531,6 +541,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKNC7399GK;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -552,6 +563,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKNC7399GK;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

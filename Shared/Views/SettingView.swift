@@ -4,7 +4,6 @@
 //
 //  Created by Lonnie on 2021/3/31.
 //
-
 import SwiftUI
 
 struct SettingView: View {
@@ -26,6 +25,9 @@ struct SettingView: View {
 
 struct SettingView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingView().environmentObject(AppModel())
+        Group {
+            SettingView().environmentObject(AppModel.shared)
+            SettingView().environmentObject(AppModel.shared)
+        }
     }
 }

@@ -46,7 +46,7 @@ struct IconDetailView: View {
 struct IconDetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            IconDetailView(icon: .init(name: "gearshape")).environmentObject(AppModel())
+            IconDetailView(icon: .init(name: "gearshape")).environmentObject(AppModel.shared)
         }
         
     }

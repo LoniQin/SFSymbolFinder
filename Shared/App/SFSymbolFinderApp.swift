@@ -14,7 +14,7 @@ struct SFSymbolFinderApp: App {
         WindowGroup {
             NavigationView {
                 ContentView()
-                    .environmentObject(AppModel())
+                    .environmentObject(AppModel.shared)
             }
         }
     }
