@@ -32,12 +32,7 @@ struct IconDetailView: View {
         }, label: {
             Image(systemName: icon.star ? "star.fill" : "star")
         })).onDisappear {
-            if let index = self.model.filtered.firstIndex(where: {$0.name == icon.name }) {
-                self.model.filtered[index] = self.icon
-            }
-            if let index = self.model.names.firstIndex(where: {$0.name == icon.name }) {
-                self.model.names[index] = self.icon
-            }
+            self.model.save(self.icon)
         }
     }
 

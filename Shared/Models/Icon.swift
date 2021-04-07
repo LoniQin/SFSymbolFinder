@@ -13,10 +13,11 @@ struct Icon: Identifiable {
     
     let name: String
     
-    var star = false
+    var star: Bool
     
-    init(name: String) {
+    init(name: String, star: Bool = false) {
         self.name = name
+        self.star = star
     }
     
 }
