@@ -29,6 +29,8 @@
 		F07F20862614D0AD0028B6CA /* SettingBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07F20842614D0AD0028B6CA /* SettingBarItem.swift */; };
 		F0DA7AA4261E19B300DF7E04 /* AllIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DA7AA3261E19B300DF7E04 /* AllIconsView.swift */; };
 		F0DA7AA5261E19B300DF7E04 /* AllIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DA7AA3261E19B300DF7E04 /* AllIconsView.swift */; };
+		F0DA7AAB261E224D00DF7E04 /* CodableAppStoarge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DA7AAA261E224D00DF7E04 /* CodableAppStoarge.swift */; };
+		F0DA7AAC261E224D00DF7E04 /* CodableAppStoarge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DA7AAA261E224D00DF7E04 /* CodableAppStoarge.swift */; };
 		F0F0A9FE2616109F0069F428 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F0F0A9FD2616109E0069F428 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +73,7 @@
 		F07F20792614CF320028B6CA /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		F07F20842614D0AD0028B6CA /* SettingBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingBarItem.swift; sourceTree = "<group>"; };
 		F0DA7AA3261E19B300DF7E04 /* AllIconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllIconsView.swift; sourceTree = "<group>"; };
+		F0DA7AAA261E224D00DF7E04 /* CodableAppStoarge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableAppStoarge.swift; sourceTree = "<group>"; };
 		F0F0A9FD2616109E0069F428 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,6 +185,7 @@
 			children = (
 				F07F20472613A38E0028B6CA /* AppModel.swift */,
 				F07F20792614CF320028B6CA /* Icon.swift */,
+				F0DA7AAA261E224D00DF7E04 /* CodableAppStoarge.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -366,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0DA7AAB261E224D00DF7E04 /* CodableAppStoarge.swift in Sources */,
 				F07F20852614D0AD0028B6CA /* SettingBarItem.swift in Sources */,
 				F07F207A2614CF330028B6CA /* Icon.swift in Sources */,
 				F07F202D2613A2CF0028B6CA /* SFSymbolFinderApp.swift in Sources */,
@@ -381,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0DA7AAC261E224D00DF7E04 /* CodableAppStoarge.swift in Sources */,
 				F07F20862614D0AD0028B6CA /* SettingBarItem.swift in Sources */,
 				F07F207B2614CF330028B6CA /* Icon.swift in Sources */,
 				F07F202E2613A2CF0028B6CA /* SFSymbolFinderApp.swift in Sources */,
