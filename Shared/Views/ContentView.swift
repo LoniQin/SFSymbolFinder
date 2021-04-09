@@ -29,7 +29,7 @@ struct ContentView: View {
                             model.image(for: icon).foregroundColor(tintColor)
                             Text(icon.name)
                             Spacer()
-                            Image(systemName: icon.star ? "star.fill" : "star").foregroundColor(tintColor)
+                            StarView(star: icon.star).foregroundColor(tintColor)
                         }
                     })
             }

@@ -30,7 +30,7 @@ struct IconDetailView: View {
         }.navigationBarItems(trailing: Button(action: {
             self.icon.star.toggle()
         }, label: {
-            Image(systemName: icon.star ? "star.fill" : "star")
+            StarView(star: icon.star).foregroundColor(model.tintColor)
         })).onDisappear {
             self.model.save(self.icon)
         }

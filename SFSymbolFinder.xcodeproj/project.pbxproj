@@ -31,6 +31,8 @@
 		F0DA7AA5261E19B300DF7E04 /* AllIconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DA7AA3261E19B300DF7E04 /* AllIconsView.swift */; };
 		F0DA7AAB261E224D00DF7E04 /* CodableAppStoarge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DA7AAA261E224D00DF7E04 /* CodableAppStoarge.swift */; };
 		F0DA7AAC261E224D00DF7E04 /* CodableAppStoarge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DA7AAA261E224D00DF7E04 /* CodableAppStoarge.swift */; };
+		F0DA7AB22620B98500DF7E04 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DA7AB12620B98500DF7E04 /* StarView.swift */; };
+		F0DA7AB32620B98500DF7E04 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DA7AB12620B98500DF7E04 /* StarView.swift */; };
 		F0F0A9FE2616109F0069F428 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F0F0A9FD2616109E0069F428 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +76,7 @@
 		F07F20842614D0AD0028B6CA /* SettingBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingBarItem.swift; sourceTree = "<group>"; };
 		F0DA7AA3261E19B300DF7E04 /* AllIconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllIconsView.swift; sourceTree = "<group>"; };
 		F0DA7AAA261E224D00DF7E04 /* CodableAppStoarge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableAppStoarge.swift; sourceTree = "<group>"; };
+		F0DA7AB12620B98500DF7E04 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
 		F0F0A9FD2616109E0069F428 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -198,6 +201,7 @@
 				F07F20022613A2CD0028B6CA /* ContentView.swift */,
 				F07F20842614D0AD0028B6CA /* SettingBarItem.swift */,
 				F0DA7AA3261E19B300DF7E04 /* AllIconsView.swift */,
+				F0DA7AB12620B98500DF7E04 /* StarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -378,6 +382,7 @@
 				F07F20492613A38E0028B6CA /* AppModel.swift in Sources */,
 				F0DA7AA4261E19B300DF7E04 /* AllIconsView.swift in Sources */,
 				F07F20652614B5EC0028B6CA /* IconDetailView.swift in Sources */,
+				F0DA7AB22620B98500DF7E04 /* StarView.swift in Sources */,
 				F07F202F2613A2CF0028B6CA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +399,7 @@
 				F07F204A2613A38E0028B6CA /* AppModel.swift in Sources */,
 				F0DA7AA5261E19B300DF7E04 /* AllIconsView.swift in Sources */,
 				F07F20662614B5EC0028B6CA /* IconDetailView.swift in Sources */,
+				F0DA7AB32620B98500DF7E04 /* StarView.swift in Sources */,
 				F07F20302613A2CF0028B6CA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
