@@ -21,6 +21,7 @@ struct ContentView: View {
             TextField("Keyword", text: self.$keyword, onCommit: {
                 model.filter(self.keyword)
             })
+            
             ForEach(model.filtered.filter({ !self.showStarItem || $0.star })) { icon in
                 NavigationLink(
                     destination: IconDetailView(icon: icon).environmentObject(model),

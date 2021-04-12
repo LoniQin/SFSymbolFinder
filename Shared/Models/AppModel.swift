@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import Combine
 class AppModel: ObservableObject {
     
     var names: [Icon] = []
@@ -28,6 +28,7 @@ class AppModel: ObservableObject {
     }
     
     func load() {
+        //let task = URLSession.shared.dataTaskPublisher(for: URL(string: "https://www.baidu.com")!).receive(subscriber: <#T##Subscriber#>)
         DispatchQueue.global().async {
             if let url = Bundle.main.path(forResource: "icons", ofType: "txt") {
                 let starSet = Set(self.starItems ?? [])
